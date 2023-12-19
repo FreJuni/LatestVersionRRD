@@ -1,0 +1,65 @@
+nav > a {
+  text-decoration: none;
+  color: inherit;
+  color: cornflowerblue;
+  font-size: 1.2rem;
+}
+nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.main-con {
+  text-align: center;
+  padding-top: 3rem;
+}
+.active {
+  color: aquamarine;
+}
+.btn-con > button {
+  border: none;
+  background-color: cornflowerblue;
+  padding: 7px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 1.2rem;
+}
+.go-back-btn {
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 1.2rem;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+.product-con {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.product {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.nav-btn {
+  background: none;
+  color: rgb(255, 207, 117);
+  border: 2px solid orange;
+  padding: 6px 1rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
